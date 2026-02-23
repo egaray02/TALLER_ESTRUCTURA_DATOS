@@ -2,9 +2,9 @@ import java.util.Scanner;
 public class ejercicio2 { 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int PrecioPan = 500;
-        int PrecioLeche = 1500;
-        int PrecioHuevo = 3000;
+        int PrecioPan = 300;
+        int PrecioLeche = 100;
+        int PrecioHuevo = 800;
         System.out.println("**********Tienda de Barrio Minorista*************");
         System.out.println("Todos los productos tienen un 10% de descuento");
         System.out.println("Productos disponibles: \nPan: $ " + PrecioPan + "\nLeche: $ " + PrecioLeche + "\nHuevo: $ " + PrecioHuevo);
