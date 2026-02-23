@@ -1,3 +1,6 @@
+//Un sistema universitario necesita registrar la información básica de un estudiante: nombre completo, código (número entero), semestre actual,
+//promedio acumulado y si está matriculado o no.
+
 public class ejercicio1 {
     public static void main(String[] args) {
         String nombre = "ESTEFANYA GARAY LARIOS";

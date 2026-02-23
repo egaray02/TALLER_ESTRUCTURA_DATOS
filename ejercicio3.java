@@ -1,8 +1,14 @@
+//un sensor industrial registra temperaturas. El sistema recibe:
+//Temperatura actual en Celsius (double)
+//Nombre del sensor (String)
+//Número de lectura (int)
+//Si la temperatura supera el límite de 80°C, una variable boolean llamada enAlarma debe ser true.
+//Imprime el estado del sensor con todos sus datos.
 public class ejercicio3 {
     public static void main(String[] args) {
         
         double Temperatura = 81.0;
-        String Sensor = "DHT11";
+        String Sensor = "DH111";
         int numerolecturas = 5;
         boolean alarma = false;
 
