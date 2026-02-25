@@ -1,5 +1,6 @@
 import java.util.LinkedList;
 import java.util.Queue;
+//Árbol de empleados (no lineal)
 
 class NodoEmpleado {
     String cargo;

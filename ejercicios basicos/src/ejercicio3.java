@@ -1,3 +1,4 @@
+
 //un sensor industrial registra temperaturas. El sistema recibe:
 //Temperatura actual en Celsius (double)
 //Nombre del sensor (String)

@@ -1,3 +1,4 @@
+
 //n almacén tiene un arreglo con el stock de 5 productos. 
 // El sistema de ventas y el sistema de reportes apuntan al mismo arreglo.
 //Crea el arreglo stockAlmacen con valores iniciales.

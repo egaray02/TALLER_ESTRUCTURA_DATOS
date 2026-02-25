@@ -1,3 +1,4 @@
+
 //Un chat guarda el último mensaje enviado. Se usan dos variables String:
 //ultimoMensaje = "Hola"
 //copiaTexto = ultimoMensaje

@@ -1,3 +1,4 @@
+//EJERCICIO 14 Clasificación de residuos (no lineal)
 class NodoResiduo {
     String nombre;
     NodoResiduo izquierdo;
@@ -10,7 +11,7 @@ class NodoResiduo {
     }
 }
 
-public class ArbolResiduos {
+public class ejercicio14 {
     public static void main(String[] args) {
 
         NodoResiduo raiz = new NodoResiduo("Residuos");
