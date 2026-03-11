@@ -14,36 +14,27 @@ public class ejercicio2 {
 
         Scanner teclado = new Scanner(System.in);
 
-        System.out.print("Ingrese la cantidad de libros: ");
+        System.out.print("Numero de libros: ");
         int cantidad = teclado.nextInt();
 
-        int[] codigosisbn = new int[cantidad];
+        int[] isbn = new int[cantidad];
 
-        for (int i = 0; i < cantidad; i++) {
-            System.out.print("Ingrese el ISBN del libro " + (i + 1) + ": ");
-            codigosisbn[i] = teclado.nextInt();
-        }
+        for (int i = cantidad - 1; i >= 0; i--) {
 
-        System.out.println("\nArreglo inicial: " + Arrays.toString(codigosisbn));
+            System.out.print("\nIngrese ISBN: ");
+            int valor = teclado.nextInt();
 
-    
-        for (int i = 1; i < cantidad; i++) {
+            int posicion = i;
 
-            int valoractual = codigosisbn[i];
-            int posicion = i - 1;
-
-            while (posicion >= 0 && codigosisbn[posicion] > valoractual) {
-                codigosisbn[posicion + 1] = codigosisbn[posicion];
-                posicion--;
+            while (posicion < cantidad - 1 && isbn[posicion + 1] < valor) {
+                isbn[posicion] = isbn[posicion + 1];
+                posicion++;
             }
 
-            codigosisbn[posicion + 1] = valoractual;
+            isbn[posicion] = valor;
 
-            System.out.println("Paso " + i + ": " + Arrays.toString(codigosisbn));
+            System.out.println(Arrays.toString(isbn));
         }
-
-        System.out.println("\nISBN ordenados en el estante:");
-        System.out.println(Arrays.toString(codigosisbn));
 
         teclado.close();
     }
