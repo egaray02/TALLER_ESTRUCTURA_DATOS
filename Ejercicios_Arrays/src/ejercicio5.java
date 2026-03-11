@@ -18,11 +18,6 @@ public class ejercicio5 {
 
         int totalCinco = 0;
 
-        // for (int i = 0; i < calificaciones.length; i++) {
-        //     System.out.print("Ingrese la nota del estudiante " + (i + 1) + ": ");
-        //     calificaciones[i] = teclado.nextDouble();
-        // }
-
         for (int i = 0; i < calificaciones.length; i++) {
             if (calificaciones[i] == 5.0) {
                 totalCinco++;

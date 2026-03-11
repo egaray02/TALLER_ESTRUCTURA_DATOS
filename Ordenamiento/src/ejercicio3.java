@@ -29,7 +29,7 @@ public class ejercicio3 {
         System.out.println("\nPesos originales:");
         System.out.println(Arrays.toString(listapesos));
 
-        // SHELL SORT
+        
         for (int salto = cantidad / 2; salto > 0; salto /= 2) {
 
             for (int i = salto; i < cantidad; i++) {
@@ -52,8 +52,4 @@ public class ejercicio3 {
 }
 
 // RESPUESTA:
-// Shell Sort es más rápido que Insertion Sort porque compara elementos
-// que están lejos entre sí usando saltos (gap). Esto permite mover
-// rápidamente los valores que están muy lejos de su posición final.
-// Cuando el gap se reduce a 1, el arreglo ya está casi ordenado,
-// haciendo que el proceso final sea mucho más rápido.
+//Shell Sort es más rápido que Insertion Sort porque usa saltos (gap) para comparar elementos que están lejos entre sí. Esto permite mover más rápido los valores que están desordenados. Cuando el salto llega a 1, el arreglo ya está casi ordenado y el proceso final es más rápido.

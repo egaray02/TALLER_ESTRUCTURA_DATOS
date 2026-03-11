@@ -31,10 +31,10 @@ public class ejercicio2 {
                 break;
             } 
             else if (cedulas[medio] < cedulaBuscada) {
-                izquierda = medio + 1; // Buscar en la mitad derecha
+                izquierda = medio + 1; 
             } 
             else {
-                derecha = medio - 1; // Buscar en la mitad izquierda
+                derecha = medio - 1; 
             }
         }
 
